@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/17f8570810.js" crossorigin="anonymous"></script>
+    <title>SeaShore</title>
+</head>
+<body>
+    <section class="main-page">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid px-0">
+                <a class="navbar-brand" href="#">SeaShore</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-contents"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-contents" id="navbar-contents">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-head">
+            <div class="main-inner">
+                <h1>It’s not just a resort</h1>
+                <hr>
+                <h1>It’s an experience!</h1>
+                <div ><a href="#features" id="scroll-down"></a></div>
+            </div>
+        </div>
+    </section>
+    <section id="features">
+        <div class="features">
+            <div class="features-content row">
+                <div class="img-border col col-lg-4 col-md-12 col-sm-12">
+                    <img class="img-1" src="./images/view.jpg" alt="">
+                </div>
+                <div class="f-content col col-lg-8 col-md-12 col-sm-12">
+                    <h1>Great View</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam debitis accusamus quos, laboriosam recusandae, id saepe natus, sint amet sit reiciendis? Iste, ex? Sint tenetur, earum adipisci qui perspiciatis temporibus eaque debitis minima et, quia, fuga esse placeat quisquam a. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, quaerat!</p>
+                </div>
+            </div>
+            <div class="features-content row flex-row-reverse f-box-2">
+                <div class="img-border col col-lg-4 col-md-12 col-sm-12">
+                    <img class="img-2" src="./images/food.jpg" alt="">
+                </div>
+                <div class="f-content content-2 col col-lg-8 col-md-12 col-sm-12">
+                    <h1>Finest Food</h1>
+                    <p>Lorem ipsum, consectetur adipisicing. Alias consequuntur omnis veritatis numquam veniam fuga adipisci nesciunt, reiciendis expedita dolores, eveniet consectetur quaerat blanditiis hic perferendis. Maiores quo, eum animi vel nihil voluptatem assumenda laboriosam iste delectus aliquam blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, perferendis.</p>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section id="review">
+        <div class="review-box">
+            <div id="review-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active r-one">
+                        <div class="room-border">
+                            <img src="./images/double.jpg" alt="">
+                        </div>
+                        <p>Double Bed Suite</p>
+                    </div>
+                    <div class="carousel-item r-two">
+                        <div class="room-border">
+                            <img src="./images/room.jpg" alt="">
+                        </div>
+                        <p>Sea View Suite</p>
+                    </div>
+                    <div class="carousel-item r-three">
+                        <div class="room-border">
+                            <img src="./images/pool.jpg" alt="">
+                        </div>
+                        <p>Pool Suite</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#review-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#review-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <div class=" contact row">
+            <h1>Contact Us</h1>
+            <div class="contact-form col col-lg-8">
+                <form action="@index.html">
+                    <div class="row">
+                        <div class="col pt-4">
+                            <label for="first-name">First Name :</label>
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="first-name">
+                        </div>
+                        <div class="col pt-4">
+                            <label for="second-name">Last Name :</label>
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="last-name">
+                        </div>
+                    </div>
+                    <div class="email pt-4">
+                        <label for="form-email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="form-email" placeholder="Your Email">
+                    </div>
+                    <div class="text pt-4">
+                        <label for="form-text" class="form-label">What can we help you with</label>
+                        <textarea style="resize:none" class="form-control" id="form-text" rows="3" placeholder="Your Text"></textarea>
+                    </div>
+                    <div class="pt-4">
+                        <input class="btn btn-primary px-3 py-2" type="submit" value="Submit" style="background-color: #2155CD;">
+                    </div>
+                </form>
+            </div>
+                
+            <div class="contact-2 col col-lg-4">
+                <img class="contact-img " src="/images/contactimg.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="socials">
+        <div class="s-icons">
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-solid fa-envelope"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>
+            Copyight <i class="fa-regular fa-copyright"></i> SeaShore 2022
+        </p>
+    </section>
+</body>
+</html>

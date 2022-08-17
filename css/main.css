@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* homepage */
+
+.main-page{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.navbar-brand{
+    color: #E8F9FD;
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+/* Navbar */
+
+.navbar{
+    padding: 3% 8%;
+}
+.navbar-contents{
+    text-align: right;
+    font-size: 1.3em;
+}
+
+/* Heading */
+
+.main-head{
+    text-align: center;
+    margin: 3% 8%;
+    border: 10px solid #E8F9FD;
+    position: relative;
+}
+.main-head h1{
+    color: #E8F9FD;
+    font-size: 4.5rem;
+    font-family: 'Roboto Slab', serif;
+}
+hr {
+    border-top: 10px dotted white;
+    width: 5rem;
+    margin: auto;
+}
+.main-inner{
+    margin: 6% 0 12%;
+}
+
+/* About-Scroll-Down */
+
+#scroll-down{
+    background: #0AA1DD;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #0AA1DD;
+    border-radius: 50px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 20%;
+    left: 48%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition-duration: 0.3s;
+}
+#scroll-down::before,
+#sroll-down::after{
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border: 2px solid #E8F9FD;
+    height: 15px;
+    width: 15px;
+    transform: translate(-50%, -50%)rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+}
+#scroll-down:hover, #scroll-down:focus, #scroll-down:active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* Features */
+#features{
+    background: #E8F9FD;
+    overflow-x: hidden;
+}
+.features{
+    padding: 4% 8%;
+}
+.features-content{
+    margin: 2% 0;
+}
+#features .img-border{
+    border: 10px solid #2155CD;
+    width: 370px;
+    height: 270px;
+    padding: 1%;
+}
+.img-2{
+    position: relative;
+    right: 18%;
+}
+.content-2{
+    text-align: right;
+}
+.f-content{
+    padding: 0 5%;
+}
+.f-content h1{
+    font-family: 'Roboto Slab', serif;
+    color: #2155CD;
+    font-size: 2.6rem;
+}
+.f-content p{
+    color: #7F8487;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+/* Review */
+#review-carousel{
+    text-align: center;
+}
+#review-carousel h1{
+    color: #E8F9FD;
+}
+#review p{
+    color: #E8F9FD;
+    font-size: 2em;
+    font-family: 'Roboto Slab', serif;
+}
+.room-border{
+    margin: 3% 8%;
+    padding: 2% 0;
+}
+.r-one{
+    padding: 2% 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/d-bed-back.jpg");
+    background-size: cover;
+}
+.r-two{
+    padding: 2% 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/view-back.jpg");
+    background-size: cover;
+}
+.r-three{
+    padding: 2% 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url("../images/pool-back.jpg") ;
+    background-size: cover;
+}
+
+/* contact */
+#Contact{
+    background: #0AA1DD;
+    overflow-x: hidden;
+}
+#Contact h1{
+    color: #E8F9FD;
+}
+.contact-form label{
+    color: #E8F9FD;
+}
+.contact{
+    padding: 3% 8%;
+}
+.contact-img{
+    margin-left: 8%;
+    border: 10px solid #E8F9FD;
+}
+
+/* Socials */
+.socials{
+    background: #E8F9FD;
+    height: 12vh;
+    text-align: center;
+}
+.s-icons{
+    font-size: 1.4em;
+    color: #2155CD;
+}
+.s-icons i{
+    padding: 1% 2%;
+}
+.socials p{
+    font-size: 1em;
+    color: #7F8487;
+}
+
+/* Phone Responsive */
+@media (max-width:1010px) {
+
+}
+
+
+@media (max-width:560px) {
+    /* Navbar */
+
+    .navbar{
+        padding: 4%;
+    }
+
+    /* Homepage */
+    #main-page{
+        height: 100vh;
+    }
+    .navbar-brand{
+        font-size: 2.5rem;
+    }
+    .main-head{
+        margin: 4%;
+    }
+    .main-inner{
+        padding: 20% 0;
+    }
+    .main-head h1{
+        font-size: 3.1rem;
+    }
+    .top-line{
+        margin-top: 6rem;
+    }
+    .bottom-line{
+        margin-bottom: 9rem;
+    }
+    #scroll-down{ 
+        bottom: 14%;
+        left: 44%;
+    }
+
+    /* features */
+
+    #features{
+        padding: 8% 0;
+    }
+    .features{
+        padding: 4%;
+    }
+    #features img{
+        max-height: 100%;
+        width: auto;
+        left: 1.5%;
+        filter: drop-shadow(1em 1em 10px);
+    }
+    #features .img-border{
+        border: none;
+    }
+    .f-content{
+        text-align: left;
+        margin: 6% 0;
+    }
+    .f-content h1{
+        font-size: 2.2em;
+    }
+    .f-content p{
+        font-size: 1.1em;
+    }
+
+    /* rooms */
+    #review p{
+        font-size: 1.7em;
+    }
+    .room-border{
+        padding: 4%;
+    }
+    .room-border img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Contact */
+    .contact{
+        padding: 4%;
+    }
+    .contact-2{
+        padding: 6.5%;
+    }
+
+    /* Socials */
+    .socials{
+        height: 15vh;
+    }
+    .s-icons{
+        padding: 3%;
+    }
+    .s-icons i{
+        padding: 0 4%;
+    }
+}
