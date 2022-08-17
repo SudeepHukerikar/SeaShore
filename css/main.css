@@ -210,7 +210,7 @@ hr {
     /* Navbar */
 
     .navbar{
-        padding: 4%;
+        padding: 2%;
     }
 
     /* Homepage */
@@ -221,19 +221,13 @@ hr {
         font-size: 2.5rem;
     }
     .main-head{
-        margin: 4%;
+        margin: 2%;
     }
     .main-inner{
         padding: 20% 0;
     }
     .main-head h1{
         font-size: 3.1rem;
-    }
-    .top-line{
-        margin-top: 6rem;
-    }
-    .bottom-line{
-        margin-bottom: 9rem;
     }
     #scroll-down{ 
         bottom: 14%;
@@ -246,7 +240,7 @@ hr {
         padding: 8% 0;
     }
     .features{
-        padding: 4%;
+        padding: 2%;
     }
     #features img{
         max-height: 100%;
@@ -273,7 +267,7 @@ hr {
         font-size: 1.7em;
     }
     .room-border{
-        padding: 4%;
+        padding: 2%;
     }
     .room-border img{
         max-width: 100%;
@@ -282,7 +276,7 @@ hr {
 
     /* Contact */
     .contact{
-        padding: 4%;
+        padding: 2%;
     }
     .contact-2{
         padding: 6.5%;
