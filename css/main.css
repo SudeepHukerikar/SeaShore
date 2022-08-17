@@ -210,7 +210,7 @@ hr {
     /* Navbar */
 
     .navbar{
-        padding: 2%;
+        padding: 4%;
     }
 
     /* Homepage */
@@ -221,7 +221,8 @@ hr {
         font-size: 2.5rem;
     }
     .main-head{
-        margin: 2%;
+        margin: 4%;
+        padding: 2%;
     }
     .main-inner{
         padding: 20% 0;
@@ -267,7 +268,7 @@ hr {
         font-size: 1.7em;
     }
     .room-border{
-        padding: 2%;
+        padding: 4%;
     }
     .room-border img{
         max-width: 100%;
@@ -276,7 +277,7 @@ hr {
 
     /* Contact */
     .contact{
-        padding: 2%;
+        padding: 4%;
     }
     .contact-2{
         padding: 6.5%;
