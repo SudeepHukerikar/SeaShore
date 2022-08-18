@@ -247,7 +247,7 @@ hr {
         max-height: 100%;
         width: auto;
         left: 1.5%;
-        filter: drop-shadow(1em 1em 10px);
+        filter: drop-shadow(0.5em 0.5em 10px);
     }
     #features .img-border{
         border: none;
